@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SHMÚ weather",
+        "description": "Closest station to your Home Assistant location: **{nearest_name}** ({nearest_distance_km} km). Confirm or pick another station from the dropdown.",
+        "data": {
+          "station": "Station"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "SHMÚ is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "SHMÚ options",
+        "data": {
+          "station": "Station"
+        }
+      }
+    }
+  }
+}

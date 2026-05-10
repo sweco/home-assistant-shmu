@@ -1,0 +1,13 @@
+{
+  "domain": "shmu",
+  "name": "SHMÚ",
+  "version": "0.1.0",
+  "codeowners": ["@sweco"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/sweco/home-assistant-shmu",
+  "issue_tracker": "https://github.com/sweco/home-assistant-shmu/issues",
+  "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "requirements": []
+}

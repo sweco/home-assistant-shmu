@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Počasie SHMÚ",
+        "description": "Najbližšia stanica k vašej polohe Home Assistant: **{nearest_name}** ({nearest_distance_km} km). Potvrďte alebo vyberte inú stanicu z rozbaľovacieho zoznamu.",
+        "data": {
+          "station": "Stanica"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Integrácia SHMÚ je už nakonfigurovaná."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Možnosti SHMÚ",
+        "data": {
+          "station": "Stanica"
+        }
+      }
+    }
+  }
+}

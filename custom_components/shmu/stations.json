@@ -1,0 +1,688 @@
+[
+  {
+    "ind_kli": 11898,
+    "name": "Banská Bystrica",
+    "lat": 48.7395,
+    "lon": 19.1493,
+    "elevation": 329.0
+  },
+  {
+    "ind_kli": 11901,
+    "name": "Banská Štiavnica",
+    "lat": 48.4486,
+    "lon": 18.91,
+    "elevation": 522.0
+  },
+  {
+    "ind_kli": 11962,
+    "name": "Bardejov",
+    "lat": 49.2918,
+    "lon": 21.2727,
+    "elevation": 283.0
+  },
+  {
+    "ind_kli": 11862,
+    "name": "Beluša",
+    "lat": 49.0649,
+    "lon": 18.3269,
+    "elevation": 256.0
+  },
+  {
+    "ind_kli": 11927,
+    "name": "Boľkovce",
+    "lat": 48.3372,
+    "lon": 19.77,
+    "elevation": 188.0
+  },
+  {
+    "ind_kli": 11813,
+    "name": "Bratislava - Koliba",
+    "lat": 48.1693,
+    "lon": 17.0943,
+    "elevation": 287
+  },
+  {
+    "ind_kli": 11816,
+    "name": "Bratislava - Letisko",
+    "lat": 48.1702,
+    "lon": 17.2127,
+    "elevation": 134
+  },
+  {
+    "ind_kli": 11810,
+    "name": "Bratislava - Mlynská Dolina",
+    "lat": 48.1556,
+    "lon": 17.0666,
+    "elevation": 195
+  },
+  {
+    "ind_kli": 11917,
+    "name": "Brezno",
+    "lat": 48.8043,
+    "lon": 19.6363,
+    "elevation": 492.0
+  },
+  {
+    "ind_kli": 11902,
+    "name": "Bzovík",
+    "lat": 48.3147,
+    "lon": 19.075,
+    "elevation": 220
+  },
+  {
+    "ind_kli": 11866,
+    "name": "Čadca",
+    "lat": 49.435,
+    "lon": 18.7889,
+    "elevation": 428.0
+  },
+  {
+    "ind_kli": 11966,
+    "name": "Čaklov",
+    "lat": 48.9075,
+    "lon": 21.6299,
+    "elevation": 134.0
+  },
+  {
+    "ind_kli": 11951,
+    "name": "Červený Kláštor",
+    "lat": 49.3932,
+    "lon": 20.4116,
+    "elevation": 462.0
+  },
+  {
+    "ind_kli": 11905,
+    "name": "Dolné Plachtince",
+    "lat": 48.2,
+    "lon": 19.31,
+    "elevation": 192.0
+  },
+  {
+    "ind_kli": 11841,
+    "name": "Dolný Hričov",
+    "lat": 49.2319,
+    "lon": 18.6333,
+    "elevation": 312.0
+  },
+  {
+    "ind_kli": 11894,
+    "name": "Donovaly",
+    "lat": 48.8801,
+    "lon": 19.2224,
+    "elevation": 976.0
+  },
+  {
+    "ind_kli": 11880,
+    "name": "Dudince",
+    "lat": 48.1713,
+    "lon": 18.8878,
+    "elevation": 140.0
+  },
+  {
+    "ind_kli": 11818,
+    "name": "Gabčíkovo",
+    "lat": 47.8921,
+    "lon": 17.5788,
+    "elevation": 114.0
+  },
+  {
+    "ind_kli": 11952,
+    "name": "Gánovce",
+    "lat": 49.0353,
+    "lon": 20.3239,
+    "elevation": 703
+  },
+  {
+    "ind_kli": 11800,
+    "name": "Holíč",
+    "lat": 48.8111,
+    "lon": 17.1624,
+    "elevation": 180.0
+  },
+  {
+    "ind_kli": 11858,
+    "name": "Hurbanovo",
+    "lat": 47.8698,
+    "lon": 18.1923,
+    "elevation": 111.0
+  },
+  {
+    "ind_kli": 11916,
+    "name": "Chopok",
+    "lat": 48.9447,
+    "lon": 19.5902,
+    "elevation": 2023.0
+  },
+  {
+    "ind_kli": 11963,
+    "name": "Jakubovany",
+    "lat": 49.1031,
+    "lon": 19.7248,
+    "elevation": 715.0
+  },
+  {
+    "ind_kli": 11819,
+    "name": "Jaslovské Bohunice",
+    "lat": 48.4755,
+    "lon": 17.6474,
+    "elevation": 161.0
+  },
+  {
+    "ind_kli": 11838,
+    "name": "Kamanová",
+    "lat": 48.4753,
+    "lon": 18.102,
+    "elevation": 154.0
+  },
+  {
+    "ind_kli": 11993,
+    "name": "Kamenica nad Cirochou",
+    "lat": 48.9314,
+    "lon": 21.997,
+    "elevation": 181.0
+  },
+  {
+    "ind_kli": 11958,
+    "name": "Kojšovská hoľa",
+    "lat": 48.7886,
+    "lon": 21.0128,
+    "elevation": 1244
+  },
+  {
+    "ind_kli": 11968,
+    "name": "Košice",
+    "lat": 48.7144,
+    "lon": 21.258,
+    "elevation": 205.0
+  },
+  {
+    "ind_kli": 11969,
+    "name": "Košice - Podhradová",
+    "lat": 48.7322,
+    "lon": 21.2444,
+    "elevation": 305
+  },
+  {
+    "ind_kli": 11817,
+    "name": "Kráľová pri Senci",
+    "lat": 48.1962,
+    "lon": 17.4502,
+    "elevation": 122.0
+  },
+  {
+    "ind_kli": 11879,
+    "name": "Kremnické Bane",
+    "lat": 48.7363,
+    "lon": 18.9068,
+    "elevation": 784.0
+  },
+  {
+    "ind_kli": 11801,
+    "name": "Kuchyňa",
+    "lat": 48.406,
+    "lon": 17.1573,
+    "elevation": 249.0
+  },
+  {
+    "ind_kli": 11918,
+    "name": "Liesek",
+    "lat": 49.3612,
+    "lon": 19.6749,
+    "elevation": 651.0
+  },
+  {
+    "ind_kli": 11908,
+    "name": "Liptovská Osada",
+    "lat": 48.9496,
+    "lon": 19.2618,
+    "elevation": 607.0
+  },
+  {
+    "ind_kli": 11874,
+    "name": "Liptovský Hrádok",
+    "lat": 49.0396,
+    "lon": 19.7233,
+    "elevation": 640.0
+  },
+  {
+    "ind_kli": 11910,
+    "name": "Lom nad Rimavicou",
+    "lat": 48.6416,
+    "lon": 19.6495,
+    "elevation": 991.0
+  },
+  {
+    "ind_kli": 11930,
+    "name": "Lomnický Štít",
+    "lat": 49.1953,
+    "lon": 20.2133,
+    "elevation": 2634.0
+  },
+  {
+    "ind_kli": 11926,
+    "name": "Málinec",
+    "lat": 48.498,
+    "lon": 19.6818,
+    "elevation": 281.0
+  },
+  {
+    "ind_kli": 11812,
+    "name": "Malý Javorník",
+    "lat": 48.2606,
+    "lon": 17.1633,
+    "elevation": 592.0
+  },
+  {
+    "ind_kli": 11977,
+    "name": "Medzilaborce - Borov",
+    "lat": 49.2719,
+    "lon": 21.9007,
+    "elevation": 326.0
+  },
+  {
+    "ind_kli": 11982,
+    "name": "Michalovce",
+    "lat": 48.7543,
+    "lon": 21.9195,
+    "elevation": 111.0
+  },
+  {
+    "ind_kli": 11833,
+    "name": "Modra - Piesok",
+    "lat": 48.334,
+    "lon": 17.3071,
+    "elevation": 173.0
+  },
+  {
+    "ind_kli": 11856,
+    "name": "Mochovce",
+    "lat": 48.2645,
+    "lon": 18.4504,
+    "elevation": 213.0
+  },
+  {
+    "ind_kli": 11947,
+    "name": "Moldava nad Bodvou",
+    "lat": 48.6143,
+    "lon": 20.9996,
+    "elevation": 209.0
+  },
+  {
+    "ind_kli": 11835,
+    "name": "Moravský Svätý Ján",
+    "lat": 48.5916,
+    "lon": 17.0022,
+    "elevation": 159.0
+  },
+  {
+    "ind_kli": 11884,
+    "name": "Mužla",
+    "lat": 47.793,
+    "lon": 18.5993,
+    "elevation": 117.0
+  },
+  {
+    "ind_kli": 11806,
+    "name": "Myjava",
+    "lat": 48.7588,
+    "lon": 17.5687,
+    "elevation": 332.0
+  },
+  {
+    "ind_kli": 11855,
+    "name": "Nitra",
+    "lat": 48.3076,
+    "lon": 18.0845,
+    "elevation": 144.0
+  },
+  {
+    "ind_kli": 11868,
+    "name": "Oravská Lesná",
+    "lat": 49.3667,
+    "lon": 19.1809,
+    "elevation": 850.0
+  },
+  {
+    "ind_kli": 11890,
+    "name": "Oravské Veselé",
+    "lat": 49.466,
+    "lon": 19.3834,
+    "elevation": 723.0
+  },
+  {
+    "ind_kli": 11892,
+    "name": "Oravský Podzámok",
+    "lat": 49.2594,
+    "lon": 19.3569,
+    "elevation": 512.0
+  },
+  {
+    "ind_kli": 11984,
+    "name": "Orechová",
+    "lat": 48.7069,
+    "lon": 22.2238,
+    "elevation": 122.0
+  },
+  {
+    "ind_kli": 11992,
+    "name": "Osadné",
+    "lat": 49.1407,
+    "lon": 22.1525,
+    "elevation": 377.0
+  },
+  {
+    "ind_kli": 11815,
+    "name": "Pezinok - Grinava",
+    "lat": 48.273,
+    "lon": 17.281,
+    "elevation": 175
+  },
+  {
+    "ind_kli": 11826,
+    "name": "Piešťany",
+    "lat": 48.5948,
+    "lon": 17.8259,
+    "elevation": 161.0
+  },
+  {
+    "ind_kli": 11961,
+    "name": "Plaveč nad Popradom",
+    "lat": 49.2627,
+    "lon": 20.8422,
+    "elevation": 484.0
+  },
+  {
+    "ind_kli": 11876,
+    "name": "Podbanské",
+    "lat": 49.1467,
+    "lon": 19.9073,
+    "elevation": 961.0
+  },
+  {
+    "ind_kli": 11950,
+    "name": "Podolínec",
+    "lat": 49.2587,
+    "lon": 20.536,
+    "elevation": 567.0
+  },
+  {
+    "ind_kli": 11934,
+    "name": "Poprad",
+    "lat": 49.0614,
+    "lon": 20.298,
+    "elevation": 668.0
+  },
+  {
+    "ind_kli": 11955,
+    "name": "Prešov",
+    "lat": 48.9992,
+    "lon": 21.2355,
+    "elevation": 253.0
+  },
+  {
+    "ind_kli": 11867,
+    "name": "Prievidza",
+    "lat": 48.7745,
+    "lon": 18.6275,
+    "elevation": 295.0
+  },
+  {
+    "ind_kli": 11869,
+    "name": "Rabča",
+    "lat": 49.486,
+    "lon": 19.4762,
+    "elevation": 664.0
+  },
+  {
+    "ind_kli": 11941,
+    "name": "Ratková",
+    "lat": 48.5914,
+    "lon": 20.0957,
+    "elevation": 291.0
+  },
+  {
+    "ind_kli": 11953,
+    "name": "Revúca",
+    "lat": 48.6835,
+    "lon": 20.1173,
+    "elevation": 318.0
+  },
+  {
+    "ind_kli": 11942,
+    "name": "Rimavská Sobota",
+    "lat": 48.3828,
+    "lon": 20.0224,
+    "elevation": 208.0
+  },
+  {
+    "ind_kli": 11974,
+    "name": "Roztoky",
+    "lat": 49.3431,
+    "lon": 21.7129,
+    "elevation": 245
+  },
+  {
+    "ind_kli": 11944,
+    "name": "Rožňava",
+    "lat": 48.6601,
+    "lon": 20.5376,
+    "elevation": 318.0
+  },
+  {
+    "ind_kli": 11872,
+    "name": "Ružomberok",
+    "lat": 49.0748,
+    "lon": 19.3075,
+    "elevation": 481.0
+  },
+  {
+    "ind_kli": 11805,
+    "name": "Senica",
+    "lat": 48.6792,
+    "lon": 17.367,
+    "elevation": 209.0
+  },
+  {
+    "ind_kli": 11970,
+    "name": "Silica",
+    "lat": 48.5555,
+    "lon": 20.5221,
+    "elevation": 531.0
+  },
+  {
+    "ind_kli": 11931,
+    "name": "Skalnaté Pleso",
+    "lat": 49.1894,
+    "lon": 20.2342,
+    "elevation": 1778
+  },
+  {
+    "ind_kli": 11903,
+    "name": "Sliač",
+    "lat": 48.6167,
+    "lon": 19.1371,
+    "elevation": 298.0
+  },
+  {
+    "ind_kli": 11979,
+    "name": "Somotor",
+    "lat": 48.4025,
+    "lon": 21.8079,
+    "elevation": 98.0
+  },
+  {
+    "ind_kli": 11949,
+    "name": "Spišské Vlachy",
+    "lat": 48.9475,
+    "lon": 20.7957,
+    "elevation": 385.0
+  },
+  {
+    "ind_kli": 11957,
+    "name": "Stará Lesná",
+    "lat": 49.1368,
+    "lon": 20.3046,
+    "elevation": 730.0
+  },
+  {
+    "ind_kli": 11946,
+    "name": "Štós",
+    "lat": 48.7082,
+    "lon": 20.7909,
+    "elevation": 434.0
+  },
+  {
+    "ind_kli": 11933,
+    "name": "Štrbské Pleso",
+    "lat": 49.1194,
+    "lon": 20.0629,
+    "elevation": 1350.0
+  },
+  {
+    "ind_kli": 11945,
+    "name": "Švedlár",
+    "lat": 48.8133,
+    "lon": 20.7138,
+    "elevation": 485.0
+  },
+  {
+    "ind_kli": 11936,
+    "name": "Tatranská Javorina",
+    "lat": 49.2622,
+    "lon": 20.1431,
+    "elevation": 1018
+  },
+  {
+    "ind_kli": 11935,
+    "name": "Tatranská Lomnica",
+    "lat": 49.1662,
+    "lon": 20.2813,
+    "elevation": 845.0
+  },
+  {
+    "ind_kli": 11959,
+    "name": "Tatranská Polianka",
+    "lat": 49.1238,
+    "lon": 20.1864,
+    "elevation": 996.0
+  },
+  {
+    "ind_kli": 11938,
+    "name": "Telgárt",
+    "lat": 48.8516,
+    "lon": 20.1885,
+    "elevation": 886.0
+  },
+  {
+    "ind_kli": 11976,
+    "name": "Tisinec",
+    "lat": 49.2213,
+    "lon": 21.637,
+    "elevation": 191.0
+  },
+  {
+    "ind_kli": 11978,
+    "name": "Trebišov",
+    "lat": 48.6286,
+    "lon": 21.7195,
+    "elevation": 105.0
+  },
+  {
+    "ind_kli": 11803,
+    "name": "Trenčín",
+    "lat": 48.8945,
+    "lon": 18.0444,
+    "elevation": 217.0
+  },
+  {
+    "ind_kli": 11897,
+    "name": "Turčianske Teplice",
+    "lat": 48.8623,
+    "lon": 18.8605,
+    "elevation": 509.0
+  },
+  {
+    "ind_kli": 11857,
+    "name": "Turzovka",
+    "lat": 49.4043,
+    "lon": 18.6226,
+    "elevation": 472.0
+  },
+  {
+    "ind_kli": 11839,
+    "name": "Uhrovec",
+    "lat": 48.7488,
+    "lon": 18.3384,
+    "elevation": 250.0
+  },
+  {
+    "ind_kli": 11883,
+    "name": "Veľké Lovce",
+    "lat": 48.0623,
+    "lon": 18.3385,
+    "elevation": 165.0
+  },
+  {
+    "ind_kli": 11904,
+    "name": "Vígľaš",
+    "lat": 48.5632,
+    "lon": 19.3029,
+    "elevation": 345.0
+  },
+  {
+    "ind_kli": 11995,
+    "name": "Vysoká nad Uhom",
+    "lat": 48.6261,
+    "lon": 22.0913,
+    "elevation": 106.0
+  },
+  {
+    "ind_kli": 11967,
+    "name": "Zlatá Baňa",
+    "lat": 48.9532,
+    "lon": 21.421,
+    "elevation": 594.0
+  },
+  {
+    "ind_kli": 11893,
+    "name": "Žabokreky pri Martine",
+    "lat": 49.0467,
+    "lon": 18.8867,
+    "elevation": 392
+  },
+  {
+    "ind_kli": 11881,
+    "name": "Želiezovce",
+    "lat": 48.0508,
+    "lon": 18.6542,
+    "elevation": 135.0
+  },
+  {
+    "ind_kli": 11900,
+    "name": "Žiar nad Hronom",
+    "lat": 48.5918,
+    "lon": 18.8496,
+    "elevation": 279.0
+  },
+  {
+    "ind_kli": 11820,
+    "name": "Žihárec",
+    "lat": 48.0723,
+    "lon": 17.8867,
+    "elevation": 113.0
+  },
+  {
+    "ind_kli": 11849,
+    "name": "Žikava",
+    "lat": 48.444,
+    "lon": 18.3824,
+    "elevation": 269.0
+  },
+  {
+    "ind_kli": 11865,
+    "name": "Žilina",
+    "lat": 49.2231,
+    "lon": 18.7394,
+    "elevation": 347.0
+  }
+]
