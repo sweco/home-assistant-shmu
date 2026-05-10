@@ -7,8 +7,11 @@ Designed to use Home Assistant's shared aiohttp ClientSession.
 from __future__ import annotations
 
 import logging
+import pathlib
 import re
-from datetime import UTC, date, datetime, timedelta
+import ssl
+from datetime import UTC, datetime, timedelta
+from functools import lru_cache
 from typing import Any
 from xml.etree import ElementTree as ET
 
@@ -22,6 +25,18 @@ _LOGGER = logging.getLogger(__name__)
 _HREF_RE = re.compile(r'href="([^"?][^"]*)"')
 _OBS_FILE_RE = re.compile(r"^aws1min[^\"]*\.json$")
 _CAP_NS = "{urn:oasis:names:tc:emergency:cap:1.2}"
+
+# opendata.shmu.sk only sends its leaf cert and omits the Sectigo
+# intermediate. Browsers fetch it on demand via AIA; Python's ssl module
+# does not. We bundle the intermediate and add it to the trust store.
+_INTERMEDIATE_PEM = pathlib.Path(__file__).with_name("sectigo_intermediate.pem")
+
+
+@lru_cache(maxsize=1)
+def _ssl_context() -> ssl.SSLContext:
+    ctx = ssl.create_default_context()
+    ctx.load_verify_locations(cafile=str(_INTERMEDIATE_PEM))
+    return ctx
 
 
 class ShmuApiError(Exception):
@@ -111,14 +126,14 @@ class ShmuClient:
 
     async def _get_text(self, url: str) -> str:
         async with async_timeout.timeout(HTTP_TIMEOUT):
-            async with self._session.get(url) as resp:
+            async with self._session.get(url, ssl=_ssl_context()) as resp:
                 if resp.status != 200:
                     raise ShmuApiError(f"HTTP {resp.status} for {url}")
                 return await resp.text()
 
     async def _get_json(self, url: str) -> dict[str, Any]:
         async with async_timeout.timeout(HTTP_TIMEOUT):
-            async with self._session.get(url) as resp:
+            async with self._session.get(url, ssl=_ssl_context()) as resp:
                 if resp.status != 200:
                     raise ShmuApiError(f"HTTP {resp.status} for {url}")
                 return await resp.json(content_type=None)
