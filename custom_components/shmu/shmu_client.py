@@ -14,6 +14,7 @@ from datetime import UTC, datetime, timedelta
 from functools import lru_cache
 from typing import Any
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
 
 import aiohttp
 import async_timeout
@@ -25,6 +26,10 @@ _LOGGER = logging.getLogger(__name__)
 _HREF_RE = re.compile(r'href="([^"?][^"]*)"')
 _OBS_FILE_RE = re.compile(r"^aws1min[^\"]*\.json$")
 _CAP_NS = "{urn:oasis:names:tc:emergency:cap:1.2}"
+
+# Observation directories and filenames are stamped in Slovak local time
+# (CET/CEST), not UTC. Alerts, in contrast, are UTC-named.
+_SHMU_TZ = ZoneInfo("Europe/Bratislava")
 
 # opendata.shmu.sk only sends its leaf cert and omits the Sectigo
 # intermediate. Browsers fetch it on demand via AIA; Python's ssl module
@@ -56,7 +61,8 @@ class ShmuClient:
         Each file holds multiple minute-records per station; we keep only the
         newest minute per station to mirror "current conditions".
         """
-        for d in (datetime.now(UTC).date(), datetime.now(UTC).date() - timedelta(days=1)):
+        today = datetime.now(_SHMU_TZ).date()
+        for d in (today, today - timedelta(days=1)):
             url = f"{BASE_URL}{OBSERVATIONS_PATH}/{d:%Y%m%d}/"
             try:
                 files = await self._list_dir(url)
@@ -67,7 +73,7 @@ class ShmuClient:
                 continue
             payload = await self._get_json(url + json_files[-1])
             return _select_latest_per_station(payload.get("data") or [])
-        raise ShmuApiError("no observation data available for today or yesterday (UTC)")
+        raise ShmuApiError("no observation data available for today or yesterday (Europe/Bratislava)")
 
     async def fetch_active_alerts(self) -> list[dict[str, Any]]:
         """Return all CAP alerts whose <expires> is in the future."""
