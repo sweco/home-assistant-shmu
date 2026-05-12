@@ -6,6 +6,7 @@ Designed to use Home Assistant's shared aiohttp ClientSession.
 
 from __future__ import annotations
 
+import asyncio
 import logging
 import pathlib
 import re
@@ -101,7 +102,13 @@ class ShmuClient:
                     try:
                         xml = await self._get_text(folder_url + fname)
                         parsed = _parse_cap(xml)
-                    except (aiohttp.ClientError, ET.ParseError, ValueError) as e:
+                    except (
+                        aiohttp.ClientError,
+                        asyncio.TimeoutError,
+                        ET.ParseError,
+                        ValueError,
+                        ShmuApiError,
+                    ) as e:
                         _LOGGER.debug("skipping %s: %s", fname, e)
                         continue
                     if parsed is None:
